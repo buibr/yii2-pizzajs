@@ -8,22 +8,19 @@ namespace buibr\pizzajs;
 
 use yii\web\AssetBundle;
 
-/**
- * DatePicker asset
- *
- * @author Roman Ovchinnikov <nex.software@gmail.com>
- * @link https://github.com/RomeroMsk/yii2-datepicker
- */
 class PizzaAsset extends AssetBundle
 {
     public $sourcePath = '@buibr/pizzajs/assets';
-    public $depends = [];
 
     public $js = [
-        'pizza/dist/js/pizza.min.js',
+        'js/pizza.min.js',
     ];
 
     public $css = [
-        'pizza/dist/css/pizza.css',
+        'css/pizza.css',
+    ];
+
+    public $depends = [
+        'yii\web\YiiAsset',
     ];
 }
