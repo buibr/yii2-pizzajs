@@ -1,0 +1,22 @@
+{
+    "name": "buibr/yii2-pizza-js",
+    "description": "pizza.js for yii2 bootstrap4",
+    "type": "library",
+    "keywords": ["yii2","extension","yii2","pizza.js","yii2-pizza","chart","pizza-chart"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "Burhan Ibraimi",
+            "email": "burhan@wflux.pro"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-bootstrap4": "*",
+    },
+    "autoload": {
+        "psr-4": {
+            "buibr\\pizzajs\\": "src/"
+        }
+    }
+}
