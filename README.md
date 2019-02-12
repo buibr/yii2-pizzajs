@@ -1,6 +1,6 @@
 Yii2 Pizza.js
 =============
-pizza.js for yii2 bootstrap4
+Pizza.js chart extension for Yii2
 
 Installation
 ------------
@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist buibr/yii2-pizza-js "*"
+php composer.phar require --prefer-dist buibr/yii2-pizzajs "*"
 ```
 
 or add
 
 ```
-"buibr/yii2-pizza-js": "*"
+"buibr/yii2-pizzajs": "*"
 ```
 
 to the require section of your `composer.json` file.
