@@ -13,6 +13,12 @@ Either run
 php composer.phar require --prefer-dist buibr/yii2-pizzajs "*"
 ```
 
+or 
+
+```
+composer require buibr/yii2-pizzajs "*"
+```
+
 or add
 
 ```

@@ -17,10 +17,7 @@ use yii\web\AssetBundle;
 class PizzaAsset extends AssetBundle
 {
     public $sourcePath = '@buibr/pizzajs/assets';
-
-    public $depends = [
-        'yii\bootstrap4\BootstrapPluginAsset',
-    ];
+    public $depends = [];
 
     public $js = [
         'pizza/dist/js/pizza.min.js',
